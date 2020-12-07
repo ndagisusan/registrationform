@@ -1,0 +1,42 @@
+body {
+    background: #FCF7FF;
+    text-align: center;
+}
+img {
+    float: right;
+    height: 990;
+    width: 590;
+    margin-right: 10%;
+    border-radius: 15px;
+}
+.description {
+    font-size: 110%;
+}
+div {
+    border: 5px solid black;
+    border-radius: 15px;
+    margin-left: 10%;
+    margin-right: 51%;
+    text-align: left;
+    padding: 2% 5%;
+}
+.req {
+    color: red;
+}
+form p {
+    font-weight: bold;
+    font-size: 115%;
+}
+#btn {
+    background-color: #DA627D;
+    border-radius: 10px;
+    width: 250px;
+    height: 35px;
+    margin-left: 15%;
+    font-weight: bold;
+    color: white;
+}
+#btn:hover{
+    opacity: 0.8;
+    color: black;
+}
