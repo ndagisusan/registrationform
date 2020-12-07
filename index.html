@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Skills Hub</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <script type="text/javascript" src="js/validationChecks.js"></script>
+    </head>
+    <body>
+        <h1>Explore Skills-Hub</h1>
+        <!-- Site description -->
+        <p class="description">Explore skills platform allows you to identify the skills of interest you would like to gain. <br>
+        The skills offered on the platform are the most marketable skills currently in the tech world. <br>
+        It is important and recommended to always upskill in these fields due to the ever growing and changing trends in technology. <br> <br>
+        Start your journey in tech by registering with us.</p> <br> 
+        <img src="images/image.jpg" alt="gray Apple wireless keyboard beside black tablet computer and stylus pen photo">
+        <!-- Form elements -->
+        <div>
+            <h2>Fill in the form below:</h2>
+            <form name="form">
+                <p>First Name <span class="req">*</span> : <br> </p>
+                <input type="text" name="fname" onblur="validatefnameLength()" required> <br>
+                <p>Last Name <span class="req">*</span> : <br> </p>
+                <input type="text" name="lname" onblur="validatelnameLength()" required> <br>
+                <p>Email address <span class="req">*</span> : <br> </p>
+                <input type="email" name="email" placeholder="abc@xyz.com" onblur="validateEmail()" required> <br>
+                <p>Phone number <span class="req">*</span> : <br> </p>
+                <input type="tel" name="phone" onblur="validatePhone()" required> <br>
+                <p>Gender: <br> </p>
+                <input type="radio" name="gender" value="Male"> <span>Male</span> <br>
+                <input type="radio" name="gender" value="Female"> <span>Female</span> <br>
+                <input type="radio" name="gender" value="Prefer not to specify"> <span>Prefer not to specify</span> <br>
+                <p>Highest Level of Education (pursuing/completed): <br></p>
+                <input type="radio" name="education" value="High School"> <span>High School</span> <br>
+                <input type="radio" name="education" value="College certificate/ Diploma"> <span>College certificate/ Diploma</span> <br>
+                <input type="radio" name="education" value="Bachelors degree"> <span>Bachelors degree</span> <br>
+                <input type="radio" name="education" value="Postgraduate degree"> <span>Postgraduate degree</span> <br>
+                <p>Skills of interest: <br></p>
+                <input type="checkbox" name="skill" value="Artificial Intelligence"> <span>Artificial Intelligence</span> <br>
+                <input type="checkbox" name="skill" value="Blockchain"> <span>Blockchain</span> <br>
+                <input type="checkbox" name="skill" value="Cybersecurity"> <span>Cybersecurity</span> <br>
+                <input type="checkbox" name="skill" value="Data Science"> <span>Data Science</span> <br>
+                <input type="checkbox" name="skill" value="Hardware development"> <span>Hardware development</span> <br>
+                <input type="checkbox" name="skill" value="Internet of Things (IoT)"> <span>Internet of Things (IoT)</span> <br>
+                <input type="checkbox" name="skill" value="IT support"> <span>IT support</span> <br>
+                <input type="checkbox" name="skill" value="Mobile application development"> <span>Mobile application development</span> <br>
+                <input type="checkbox" name="skill" value="Networking"> <span>Networking</span> <br>
+                <input type="checkbox" name="skill" value="Web development"> <span>Web development</span> <br>
+            </form>
+            <br>
+            <button id="btn" onclick="return(Validate());">REGISTER</button>
+        </div>
+    </body>
+</html>
